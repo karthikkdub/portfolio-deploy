@@ -1,5 +1,6 @@
 import JournalistImage from '../images/Journalist.png';
-
+import space from '../images/space.png';
+import accubus from '../images/accubus.png';
 
 export const Bio = {
     name: "Karthik Khatri",
@@ -9,11 +10,12 @@ export const Bio = {
       "Future Software Engineer",
     ],
     description:
-      "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+      "I’m an iOS developer passionate about building clean, user-friendly apps. I enjoy solving real-world problems, learning new technologies, and turning ideas into intuitive mobile experiences. With experience in Swift, UIKit, and modern development practices, I focus on writing efficient code that makes an impact.",
     github: "https://github.com/karthikkdub",
     resume:
       //"https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing", --> Reference resume
-      "https://drive.google.com/file/d/1l6_sAk3R1UPsrLnsmD5dJlJ5_ji_ccwA/view?usp=sharing",
+      "https://drive.google.com/file/d/1JJxxmcjHz43TVGR-WWlxPxlCQaugngyO/view?usp=sharing",
+      // "https://drive.google.com/file/d/1l6_sAk3R1UPsrLnsmD5dJlJ5_ji_ccwA/view?usp=sharing",
       
       // ADD UPDATED RESUME
     linkedin: "https://www.linkedin.com/in/karthik-khatri/",
@@ -119,23 +121,23 @@ export const Bio = {
         {
           name: "Swift",
           image:
-            "https://cdn-media-1.freecodecamp.org/images/1*S4__g3knEbuuE6qHyWIbNQ.png",
+            "https://cdn-icons-png.flaticon.com/512/919/919833.png",
         },
         {
           name: "Xcode",
           image:
-            "https://upload.wikimedia.org/wikipedia/en/5/56/Xcode_14_icon.png",
+            "https://developer.apple.com/assets/elements/icons/xcode-12/xcode-12-96x96_2x.png",
         },
         {
           name: "UIKIT",
           image:
-            "https://getuikit.com/images/uikit-meta.png",
+            "https://avatars.githubusercontent.com/u/4173184?s=400&v=4",
         },
-        // {
-        //   name: "Android Studio",
-        //   image:
-        //     "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
-        // },
+        {
+          name: "TestFlight",
+          image:
+            "https://cdn.jim-nielsen.com/macos/512/testflight-2023-05-19.png?rf=1024",
+        },
       ],
     },
     {
@@ -186,53 +188,50 @@ export const Bio = {
   ];
   
   export const experiences = [
+    // {
+    //   id: 0,
+    //   img: "https://media.licdn.com/dms/image/D4E2DAQHgSSqH5H2c0Q/profile-treasury-image-shrink_1920_1920/0/1711007620024?e=1711612800&v=beta&t=3yeYvFtSJLhfBoLuwyeKIpR893TW66skPrNw_K2iIAo",
+    //   role: "Junior Developer",
+    //   company: "Accubus",
+    //   date: "June 2021 - Oct 2022",
+    //   desc: "Engineered an iOS app for real-time school bus tracking using Swift, Core Location, and MapKit, eliminating the need for physical GPS hardware.",
+    //   skills: [
+    //     "Swift",
+    //     "Xcode",
+    //     "Github",
+    //     "Firebase",
+    //     "UIKit",
+    //     "MapKit",
+    //   ],
+    //   //doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
+    // },
     {
-      id: 0,
-      img: "https://media.licdn.com/dms/image/D4E2DAQHgSSqH5H2c0Q/profile-treasury-image-shrink_1920_1920/0/1711007620024?e=1711612800&v=beta&t=3yeYvFtSJLhfBoLuwyeKIpR893TW66skPrNw_K2iIAo",
-      role: "Junior Developer",
-      company: "Accubus",
-      date: "June 2021 - Oct 2022",
-      desc: "Engineered an iOS app for real-time school bus tracking using Swift, Core Location, and MapKit, eliminating the need for physical GPS hardware.",
+      id: 2,
+      img: "https://pbs.twimg.com/profile_images/1675581385434693632/N8t02mYv_400x400.jpg",
+      role: "iOS Developer Intern",
+      company: "Lighthouse Portal Inc. (Startup)",
+      date: "June 2024 - Aug 2024",
+      desc: "Built an iOS hydration tracking app handling 1,000+ daily entries using Swift, UIKit, and MVC architecture with real-time data sync via Firebase. Designed custom UI for home, login, settings, and profile screens using Auto Layout. Included daily hydration goals, local notifications, and data persistence with UserDefaults.",
       skills: [
-        "Swift",
-        "Xcode",
-        "Github",
-        "Firebase",
-        "UIKit",
-        "MapKit",
-      ],
-      //doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
-    },
-    {
+        
+        "Swift", "Xcode", "UIKit", "Firebase", "MVC Architecture", "UserDefaults", "Git"
+    
+    ],
+    }, {
       id: 1,
-      img: "https://media.licdn.com/dms/image/C4E0BAQHM1mo8m_ecGw/company-logo_200_200/0/1678125020983/blackstonegroup_logo?e=1718841600&v=beta&t=5TexKweQFcjsVime38hQySakQXU4zsHkQscKvhnLSX8",
+      img: "https://pbs.twimg.com/profile_images/422783721121411072/fhRFjoUm_400x400.jpeg",
       role: "Software Engineering Intern",
       company: "Blackstone Launchpad",
       date: "Sep 2022 - Dec 2022",
-      desc: "Managed existing student databases using MySQL and write SQL queries to perform CRUD operations.",
+      desc: "Managed student database systems using MySQL and wrote SQL queries to perform CRUD operations. Created a user guide and workflow pipeline in Figma to streamline UI/UX design handoff and enhance collaboration between design and engineering teams.",
       skills: [
         "MySQL",
         "Figma",
-        "Monday.com",
-        "Trello",
+        "phpMyAdmin",
+        "Slack",
       ],
       //doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
-    },
-    {
-      id: 2,
-      img: "https://freelogopng.com/images/all_img/1656739457fiverr-transparent-logo.png",
-      role: "Web Development Freelance",
-      company: "Fiverr",
-      date: "June 2021 - Jan 2023",
-      desc: "Designed and deployed multiple websites for international clients, focusing on responsive and user-centric development. Conducted UI/UX testing on various websites and applications, ensuring seamless navigation",
-      skills: [
-        "HTML",
-        "CSS",
-        "JS",
-        "Wix",
-        "Figma",
-      ],
-    },
+    }
     // {
     //   id: 2,
     //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
@@ -447,32 +446,43 @@ export const Bio = {
     //   github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
     //   webapp: "https://whatsapp-clone-rishav.web.app",
     // },
-    // {
-    //   id: 5,
-    //   title: "Todo Web App",
-    //   date: "Jun 2021",
-    //   description:
-    //     " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
-    //   image:
-    //     "https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
-    //   tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
-    //   category: "web app",
-    //   github: "https://github.com/rishavchanda/Todo-Web-App",
-    //   webapp: "https://rishav-react-todo.netlify.app/",
-    // },
+
+        //   role: "Junior Developer",
+    //   company: "Accubus",
+    //   date: "June 2021 - Oct 2022",
+    //   desc: "Engineered an iOS app for real-time school bus tracking using Swift, Core Location, and MapKit, eliminating the need for physical GPS hardware.",
+    //   skills: [
+    //     "Swift",
+    //     "Xcode",
+    //     "Github",
+    //     "Firebase",
+    //     "UIKit",
+    //     "MapKit",
+    //   ],
     {
       id: 6,
       title: "Space-Y Asteroid Detection",
       date: "Nov 2022",
       description:
         "Leveraged NASA's Asteroids Near Earth Object Web Service API with JavaScript to detect the closest asteroids approaching Earth. Analyzed data to assess potential hazards, exploring options for human habitation or controlled fragmentation. HTML/CSS used for user-friendly data visualization.",
-      image:
-        "https://media.licdn.com/dms/image/D562DAQFBDNeRSIfHQQ/profile-treasury-image-shrink_800_800/0/1701328816864?e=1711526400&v=beta&t=VEK7D4DKv7DzjjfdQ7f5a7ePhTymQzwg4x1jeZKY0w4",
+      image: space,
       //  "https://camo.githubusercontent.com/cd07010cbeb90cb1b43a5d6162784326aef02210ef7d41a0f9ae043b3e392378/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f7425323028313534292e706e673f616c743d6d6564696126746f6b656e3d65613439383630632d303435362d343333342d616435372d336239346663303333363263",
       tags: ["HTML", "API", "CSS", "JS"],
       category: "web app",
-      github: "https://github.com/rishavchanda/Breaking-Bad",
+      github: "https://heretohaveagoodtime.netlify.app/",
       webapp: "https://heretohaveagoodtime.netlify.app/",
+    },
+    {
+      id: 5,
+      title: "Accubus - Startup",
+      date: "Jan 2023",
+      description:
+        "Developed an iOS app for real-time bus tracking using Swift, Core Location, and MapKit, eliminating the need for GPS hardware and reducing costs by 100% through a software-only solution like Uber. Presented the project at the $50,000 Panasci Seed Funding Competition and got Quater Finals",
+      image: accubus,
+      tags: ["Swift", "MapKit", "Firebase Firestore", "Core Location", "Git"],
+      category: "web app",
+      github: "https://github.com/hvdub24/BusTrackerApp",
+      
     },
     {
       id: 7,
